@@ -1,0 +1,118 @@
+
+body, h1, h2, h3, h4, h5, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    background-color:  #79787a;
+    color: #faf8f9;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-img-header {
+    flex: 1;
+    text-align: left;
+}
+
+.img-logo {
+    max-width: 150px;
+    height: auto;
+    text-decoration: none;
+}
+
+nav {
+    flex: 2;
+    text-align: right;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #80086a;
+    margin-right: 20px;
+}
+
+
+.box-btn-actions {
+    flex: 1;
+    text-align: right;
+}
+
+.box-btn-actions button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #a00886;
+    color: #f6f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+#Cursando ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#SobreMim p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+#MeusHobbies {
+    text-align: center;
+}
+
+#MeusHobbies img {
+    max-width: 100%;
+    height: auto;
+}
+
+reader img{
+    width: 200px;
+    height: 200p;
+    border-radius: 50% ;
+border: 5px solid #a30874;
+}
+footer img {
+width: 40px;
+height: 40px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
